@@ -8,7 +8,7 @@ let duration = document.getElementById('duration');
 let list = Array.from(document.getElementsByClassName('list'));
 
 let songs = [
-    {songName: "salam", filepath: "/music/1.mp3"},
+    {songName: "salam", filepath: "1.mp3"},
     {songName: "salam", filepath: "/music/2.mp3"},
     {songName: "salam", filepath: "/music/3.mp3"},
     {songName: "Kallo Ajay Hooda", filepath: "/music/4.mp3"},
