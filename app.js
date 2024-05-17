@@ -1,6 +1,6 @@
 console.log("hello");
 let songIndex = 0;
-let audioElement = new Audio('/music/1.mp3');
+let audioElement = new Audio('1.mp3');
 let progress = document.getElementById('progress');
 let masterPlay = document.getElementById('masterPlay');
 let paused = document.getElementById('paused');
