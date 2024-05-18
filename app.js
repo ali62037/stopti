@@ -47,6 +47,10 @@ let songs = [
     {songName: "Wo Mera Nabi Hai", filepath: "/music/37.mp3"},
     {songName: "Ya Rabbe Mustafa to Mujhe Hajj Pa Bula", filepath: "/music/38.mp3"},
 ]
+document.addEventListener("DOMContentLoaded", function() {
+    console.log("JavaScript is working!");
+});
+
 masterPlay.addEventListener('click', ()=>{
     if(audioElement.pause || audioElement.currentTime <=0){
         audioElement.play();
